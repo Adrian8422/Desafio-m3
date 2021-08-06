@@ -1,8 +1,15 @@
 * {
   box-sizing: border-box;
 }
-body {
-  margin: 23px;
+
+#contenido {
+  width: 100%;
+}
+@media (min-width: 730px) {
+  #contenido {
+    width: 90%;
+    margin: 0 auto;
+  }
 }
 .header {
   display: flex;
@@ -145,7 +152,7 @@ body {
 @media (min-width: 730px) {
   .contenedor-parrafo {
     height: 35%;
-    padding-right: 38%;
+    padding-right: 25%;
   }
 }
 .texto-section-dos {
@@ -174,7 +181,7 @@ body {
   width: 100%;
   height: 1375px;
 }
-@media (min-width: 1011px) {
+@media (min-width: 1123px) {
   .section-tres {
     height: 604px;
   }
@@ -203,7 +210,7 @@ body {
 .parrafo-section-tres {
   width: 262px;
 }
-@media (min-width: 1011px) {
+@media (min-width: 1123px) {
   .contenedor-mis-servicios {
     width: 100%;
     flex-direction: unset;
